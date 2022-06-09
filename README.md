@@ -5,15 +5,14 @@
 ## 1. 음식점 등록 및 조회
 ### dto
 - [RestaurantDto.java](/src/main/java/com/sparta/delivery_hwk/dto/RestaurantDto.java)
+### model
+- [Restaurant.java](/src/main/java/com/sparta/delivery_hwk/model/Restaurant.java)
 ### controller
 - [RestaurantController.java](/src/main/java/com/sparta/delivery_hwk/controller/RestaurantController.java)
-
-
-### models
-- [BlogRepository.java](/src/main/java/com/sparta/week3_s_hwk/repository/BlogRepository.java)
-- [BlogRequestDto.java](/src/main/java/com/sparta/week3_s_hwk/repository/BlogRequestDto.java)
 ### service
-- [BlogService.java](/src/main/java/com/sparta/week3_s_hwk/service/BlogService.java)
+- [RestaurantService.java](/src/main/java/com/sparta/delivery_hwk/service/RestaurantService.java)
+### repository
+- [RestaurantRepository.java](/src/main/java/com/sparta/delivery_hwk/repository/RestaurantRepository.java)
 
 > [Week3SHwkApplication.java](/src/main/java/com/sparta/week3_s_hwk/Week3SHwkApplication.java) - 서버 실행 코드
 
@@ -21,8 +20,14 @@
 ## 2. 음식 등록 및 메뉴판 조회
 ### dto
 - [FoodDto.java](/src/main/java/com/sparta/delivery_hwk/dto/FoodDto.java)
+### model
+- [Food.java](/src/main/java/com/sparta/delivery_hwk/model/Food.java)
 ### controller
 - [FoodController.java](/src/main/java/com/sparta/delivery_hwk/controller/FoodController.java)
+### service
+- [FoodService.java](/src/main/java/com/sparta/delivery_hwk/service/FoodService.java)
+### repository
+- [FoodRepository.java](/src/main/java/com/sparta/delivery_hwk/repository/FoodRepository.java)
 
 
 ---------------------------
@@ -32,7 +37,15 @@
 - order/request [FoodOrderRequestDto.java](/src/main/java/com/sparta/delivery_hwk/dto/order/request/FoodOrderRequestDto.java)
 - order/response [OrderResponseDto.java](/src/main/java/com/sparta/delivery_hwk/dto/order/response/OrderResponseDto.java)
 - order/response [FoodOrderResponseDto.java](/src/main/java/com/sparta/delivery_hwk/dto/order/response/FoodOrderResponseDto.java)
+### model
+- [Orders.java](/src/main/java/com/sparta/delivery_hwk/model/order/Orders.java)
+- [OrderFoods.java](/src/main/java/com/sparta/delivery_hwk/model/order/OrderFoods.java)
 ### controller
 - [OrderController.java](/src/main/java/com/sparta/delivery_hwk/controller/OrderController.java)
+### service
+- [OrderService.java](/src/main/java/com/sparta/delivery_hwk/service/OrderService.java)
+### repository
+- [OrdersRepository.java](/src/main/java/com/sparta/delivery_hwk/repository/order/OrdersRepository.java)
+- [OrderFoodsRespository.java](/src/main/java/com/sparta/delivery_hwk/repository/order/OrderFoodsRespository.java)
 
 

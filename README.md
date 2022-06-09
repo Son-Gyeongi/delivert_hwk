@@ -124,3 +124,13 @@
 - [RestaurantIntegrationTest.java](/src/test/java/com/sparta/delivery_hwk/RestaurantIntegrationTest.java)
 - [FoodIntegrationTest.java](/src/test/java/com/sparta/delivery_hwk/FoodIntegrationTest.java)
 - [OrderIntegrationTest.java](/src/test/java/com/sparta/delivery_hwk/OrderIntegrationTest.java)
+
+- RestaurantIntegrationTest
+- ![image](https://user-images.githubusercontent.com/78200199/172751496-8885ec5b-c148-494f-b8df-394bdb7e6d75.png)
+
+- FoodIntegrationTest.java
+- ![image](https://user-images.githubusercontent.com/78200199/172751586-012a7cec-5884-4b7d-843b-ca7054033399.png)
+
+- OrderIntegrationTest.java
+- ![image](https://user-images.githubusercontent.com/78200199/172751672-359bca17-229d-48bd-834e-dcbacc58bc6e.png)
+

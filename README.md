@@ -14,8 +14,6 @@
 ### repository
 - [RestaurantRepository.java](/src/main/java/com/sparta/delivery_hwk/repository/RestaurantRepository.java)
 
-> [Week3SHwkApplication.java](/src/main/java/com/sparta/week3_s_hwk/Week3SHwkApplication.java) - 서버 실행 코드
-
 ---------------------------
 ## 2. 음식 등록 및 메뉴판 조회
 ### dto
@@ -28,7 +26,6 @@
 - [FoodService.java](/src/main/java/com/sparta/delivery_hwk/service/FoodService.java)
 ### repository
 - [FoodRepository.java](/src/main/java/com/sparta/delivery_hwk/repository/FoodRepository.java)
-
 
 ---------------------------
 ## 3. 주문 요청하기 및 주문 조회
@@ -48,4 +45,10 @@
 - [OrdersRepository.java](/src/main/java/com/sparta/delivery_hwk/repository/order/OrdersRepository.java)
 - [OrderFoodsRespository.java](/src/main/java/com/sparta/delivery_hwk/repository/order/OrderFoodsRespository.java)
 
+---------------------------
+> [ExceptionMessages.java](/src/main/java/com/sparta/delivery_hwk/exception/ExceptionMessages.java) - 코드 속 메시지 모음
 
+## 테스트 코드
+- [RestaurantIntegrationTest.java](/src/test/java/com/sparta/delivery_hwk/RestaurantIntegrationTest.java)
+- [FoodIntegrationTest.java](/src/test/java/com/sparta/delivery_hwk/FoodIntegrationTest.java)
+- [OrderIntegrationTest.java](/src/test/java/com/sparta/delivery_hwk/OrderIntegrationTest.java)

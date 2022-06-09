@@ -1,6 +1,8 @@
 # delivery_hwk
 항해99 스프링 심화주차 과제
 
+> [yarogono/DeliveryApi](https://github.com/yarogono/DeliveryApi) - 참고한 깃허브
+
 --------------------------
 ## 1. 음식점 등록 및 조회
 ### 요구사항
